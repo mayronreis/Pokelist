@@ -1,13 +1,13 @@
 # Pokelist
 
-## :page_with_curl: Para Rodar
+## :rocket: Para Rodar
 ```bash
 $ git clone https://github.com/mayronreis/Pokelist.git
 $ cd Pokelist
 $ yarn
 $ yarn android
 ```
-## Aplicação
+## :page_with_curl: Aplicação
 
 Aplicação desenvolvida em React Native (Cli) com o intuito de listar os pokemos de uma Api de maneira fácil e intuitiva para o usuário. A Api utilizada foi a https://pokeapi.co/.
 
@@ -21,11 +21,12 @@ A segunda tela é exibida quando um dos elementos da lista é selecionado e com 
 
 Para a estilização da aplicação foi utilizado o Styled Components, com essa biblioteca podemos utilizar CSS de maneira fácil. A biblioteca também favorece a componetização de elementos.
 
-## Apresentação
+<h1 align="center">
+  <img alt="PokeList" src="https://github.com/mayronreis/Pokelist/blob/main/src/assets/pokelist.gif" width="250px" />
+</h1>
 
-![](https://github.com/mayronreis/Pokelist/blob/main/src/assets/pokelist.gif)
 
-## Technologies
+## :hammer: Technologies
 Esse projeto utilizou as seguintes tecnologias:
 -  [Axios](https://github.com/axios/axios)
 -  [Styled Components](https://github.com/styled-components/styled-components)
