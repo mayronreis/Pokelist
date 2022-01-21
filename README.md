@@ -35,4 +35,4 @@ Esse projeto utilizou as seguintes tecnologias:
 -  [React Native Gesture Handler](https://kmagiera.github.io/react-native-gesture-handler/)
 -  [React Native VectorIcons](https://github.com/oblador/react-native-vector-icons)
 -  [React Navigation](https://reactnavigation.org/)
--  [VS Code](https://code.visualstudio.com/) with [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [VS Code](https://code.visualstudio.com/) with [EditorConfig](https://editorconfig.org/), [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/)
