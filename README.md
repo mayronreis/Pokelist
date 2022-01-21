@@ -22,7 +22,7 @@ A segunda tela é exibida quando um dos elementos da lista é selecionado e com 
 Para a estilização da aplicação foi utilizado o Styled Components, com essa biblioteca podemos utilizar CSS de maneira fácil. A biblioteca também favorece a componetização de elementos.
 
 <h1 align="center">
-  <img alt="PokeList" src="https://github.com/mayronreis/Pokelist/blob/main/src/assets/pokelist.gif" width="250px" />
+  <img alt="PokeList" src="https://github.com/mayronreis/Pokelist/blob/main/src/assets/pokelist.gif" width="350px" />
 </h1>
 
 
