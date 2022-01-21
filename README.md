@@ -26,8 +26,9 @@ Para a estilização da aplicação foi utilizado o Styled Components, com essa 
 </h1>
 
 
-## :hammer: Technologies
+## :hammer: Tecnologias
 Esse projeto utilizou as seguintes tecnologias:
+
 -  [Axios](https://github.com/axios/axios)
 -  [Styled Components](https://github.com/styled-components/styled-components)
 -  [React-Native](https://facebook.github.io/react-native/)
