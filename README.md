@@ -1,6 +1,6 @@
 # Pokelist
 
-## Para Rodar
+## :page_with_curl: Para Rodar
 ```bash
 $ git clone https://github.com/mayronreis/Pokelist.git
 $ cd Pokelist
