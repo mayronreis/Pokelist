@@ -1,4 +1,4 @@
-import React, { useEffect, useState, memo } from 'react';
+import React, { useEffect, useState, memo, useCallback } from 'react';
 import { Alert } from 'react-native';
 import { RectButtonProps } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/core';
@@ -32,7 +32,7 @@ export function PokemonItem({ data, ...rest } : Props) {
   const navigation = useNavigation();
   const [pokemons, setPokemons] = useState<PokemonInfoDTO>();
 
-  async function getPokemon() {
+  const getPokemon = useCallback(async () => {
     try {
       const response = await api.get('/'+data.name);
       setPokemons(response.data)
@@ -40,7 +40,7 @@ export function PokemonItem({ data, ...rest } : Props) {
       console.error('ERROR IN TO GET POKEMONS API :: ', error);
       Alert.alert("Ocorreu um erro ao acessar as informações! Tente novamente mais tarde.");
     }
-  };
+  }, [data.name])
 
   function handlePokemonDetail() {
     navigation.navigate('PokemonDetails' as never, pokemons as never);

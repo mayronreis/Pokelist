@@ -10,7 +10,7 @@ import { Container, PokemonList, Loading, Title, ContainerTitle } from './styles
 
 const Main: React.FC = () => {
   const [pokemons, setPokemons] = useState<PokemonListDTO>();
-  const [page, setPage] = useState(2);
+  const [page, setPage] = useState(20);
   const [search, setSearch] = useState('');
   const [totalElements, setTotalElements] = useState(0);
   const [loading, setLoading] = useState(false);
